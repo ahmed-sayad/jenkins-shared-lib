@@ -1,4 +1,5 @@
-pipeline {
+def run() {
+    pipeline {
         agent any
 
         environment {
@@ -50,3 +51,4 @@ pipeline {
             }
         }
     }
+}
