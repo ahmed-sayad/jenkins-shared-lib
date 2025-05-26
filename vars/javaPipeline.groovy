@@ -1,5 +1,4 @@
-def {
-    pipeline {
+pipeline {
         agent any
 
         environment {
@@ -51,4 +50,3 @@ def {
             }
         }
     }
-}
